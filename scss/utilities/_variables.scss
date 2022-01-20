@@ -1,0 +1,27 @@
+// Descriptive color variables
+
+$white       :#fff;
+$black       :#000;
+$gray        :#878787;
+$regent-st-blue   :#add8e6;
+$river-bed   :#48525c;
+$yellow-orange : #ffa949;
+
+// Functional Color Variables
+
+$color-prim      : $yellow-orange;
+$color-sec       : $river-bed;
+
+$color-text-light : $white;
+$color-text-base  : $gray;
+$color-text-dark  : $river-bed;
+
+$color-text-light  : lighten($gray, 35%);
+$color-text-dark  : $yellow-orange;
+
+$color-link-default : $yellow-orange;
+$color-link-visited : $regent-st-blue;
+
+$color-shadow   :  rgba($black,.8);
+$color-body     :  $white;
+
