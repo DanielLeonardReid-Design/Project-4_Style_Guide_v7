@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $layout-breakpoint-small) {
 
     .container {
       max-width: 1400px;
@@ -12,8 +12,7 @@
     
     .centered {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include margin-auto-center;
     }
     
     .row {
