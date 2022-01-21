@@ -1,15 +1,19 @@
 // Descriptive color variables
 
-$white       :#fff;
-$black       :#000;
-$gray        :#878787;
-$regent-st-blue   :#add8e6;
-$river-bed   :#48525c;
-$yellow-orange : #ffa949;
+$white        :#fff;
+$black        :#000;
+$gray         :#878787;
+$royal-blue   :#6361ED;
+$river-bed    :#48525c;
+$saffron      : #F5BA24;
+$Screamin-Green  :#71F14B;
+$Jaffa        : #F19D4B;
+$Rose         : #FCABEB;
+$Violet       :#AD3CEC;
 
 // Functional Color Variables
 
-$color-prim      : $yellow-orange;
+$color-prim      : $saffron;
 $color-sec       : $river-bed;
 
 $color-text-light : $white;
@@ -17,10 +21,10 @@ $color-text-base  : $gray;
 $color-text-dark  : $river-bed;
 
 $color-text-light  : lighten($gray, 35%);
-$color-text-dark  : $yellow-orange;
+$color-text-dark  : $saffron;
 
-$color-link-default : $yellow-orange;
-$color-link-visited : $regent-st-blue;
+$color-link-default : $saffron;
+$color-link-visited : $royal-blue;
 
 $color-shadow   :  rgba($black,.8);
 $color-body     :  $white;
