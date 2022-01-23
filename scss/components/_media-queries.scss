@@ -1,13 +1,12 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $layout-breakpoint-small) {
+@media (min-width: $sm) {
 
     .container {
       max-width: 1400px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include margin-auto-center;
     }
     
     .centered {
