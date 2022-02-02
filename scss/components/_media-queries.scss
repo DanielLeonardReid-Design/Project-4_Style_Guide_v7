@@ -1,17 +1,17 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $sm) {
+@media (min-width: $break-m) {
 
-    .container {
-      max-width: 1400px;
-      display: block;
-      @include margin-auto-center;
-    }
+  .container {
+    max-width: 1400px;
+    display: block;
+  }
     
     .centered {
       display: block;
-      @include margin-auto-center;
+      margin-right: auto;
+      margin-left: auto;
     }
     
     .row {

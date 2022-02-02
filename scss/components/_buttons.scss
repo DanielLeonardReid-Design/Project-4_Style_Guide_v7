@@ -7,9 +7,11 @@
     width: 100%;
     color: $white;
     border: none;
+    transition: background-color 0.2s ease-out;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+   
   }
   
   .default {
@@ -17,7 +19,7 @@
   }
   
   .error {
-    background-color: $Jaffa;
+    background-color: $jaffa;
   }
   
   .info {
@@ -25,7 +27,7 @@
   }
   
   .success {
-    background-color: $Screamin-Green;
+    background-color: $screamin-green;
   }
   
   .warning {

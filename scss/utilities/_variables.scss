@@ -6,10 +6,10 @@ $gray         :#878787;
 $royal-blue   :#6361ED;
 $river-bed    :#48525c;
 $saffron      : #F5BA24;
-$Screamin-Green  :#71F14B;
-$Jaffa        : #F19D4B;
-$Rose         : #FCABEB;
-$Violet       :#AD3CEC;
+$screamin-green  :#71F14B;
+$jaffa        : #F19D4B;
+$rose         : #FCABEB;
+$violet       :#AD3CEC;
 
 // Functional Color Variables
 
@@ -33,6 +33,4 @@ $color-body     :  $white;
 
 // breakpoints
 
-$breakpoints: (
-    $sm: 768px,
-);
+    $break-m: 768px;
